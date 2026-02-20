@@ -117,42 +117,6 @@
       "email": "daniel.kim@library.org",
       "created_at": "2026-01-12",
       "item_id": 4
-    },
-    {
-      "user_id": 5,
-      "first_name": "Liam",
-      "last_name": "Walker",
-      "role": "Digital Collections Assistant",
-      "email": "liam.walker@library.org",
-      "created_at": "2026-02-02",
-      "item_id": 5
-    },
-    {
-      "user_id": 6,
-      "first_name": "Emma",
-      "last_name": "Johnson",
-      "role": "Image Archivist",
-      "email": "emma.johnson@library.org",
-      "created_at": "2026-02-05",
-      "item_id": 6
-    },
-    {
-      "user_id": 7,
-      "first_name": "Noah",
-      "last_name": "Lee",
-      "role": "Digital Curator",
-      "email": "noah.lee@library.org",
-      "created_at": "2026-02-07",
-      "item_id": 7
-    },
-    {
-      "user_id": 8,
-      "first_name": "Olivia",
-      "last_name": "Smith",
-      "role": "Catalog Assistant",
-      "email": "olivia.smith@library.org",
-      "created_at": "2026-02-10",
-      "item_id": 8
     }
   ],
   "collection": {
