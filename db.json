@@ -48,7 +48,7 @@
       "image_format": "jpg",
       "resolution": "800x1200",
       "upload_date": "2026-02-12",
-      "user_id": 5
+      "user_id": 1
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "image_format": "png",
       "resolution": "750x1150",
       "upload_date": "2026-02-12",
-      "user_id": 6
+      "user_id": 2
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "image_format": "jpg",
       "resolution": "700x1050",
       "upload_date": "2026-02-15",
-      "user_id": 7
+      "user_id": 3
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "image_format": "jpg",
       "resolution": "650x1000",
       "upload_date": "2026-02-16",
-      "user_id": 8
+      "user_id": 4
     }
   ],
   "users": [
