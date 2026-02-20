@@ -7,7 +7,8 @@
       "image_url": "https://library.example.org/covers/great-gatsby.jpg",
       "image_format": "jpg",
       "resolution": "600x900",
-      "upload_date": "2026-02-01"
+      "upload_date": "2026-02-01",
+      "user_id": 1
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "image_url": "https://library.example.org/covers/1984.jpg",
       "image_format": "jpg",
       "resolution": "600x900",
-      "upload_date": "2026-02-05"
+      "upload_date": "2026-02-05",
+      "user_id": 3
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "image_url": "https://library.example.org/covers/to-kill-a-mockingbird.png",
       "image_format": "png",
       "resolution": "800x1200",
-      "upload_date": "2026-02-10"
+      "upload_date": "2026-02-10",
+      "user_id": 4
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "image_url": "https://library.example.org/covers/pride-and-prejudice.jpg",
       "image_format": "jpg",
       "resolution": "700x1100",
-      "upload_date": "2026-02-11"
+      "upload_date": "2026-02-11",
+      "user_id": 2
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "image_url": "https://library.example.org/covers/the-hobbit.jpg",
       "image_format": "jpg",
       "resolution": "800x1200",
-      "upload_date": "2026-02-12"
+      "upload_date": "2026-02-12",
+      "user_id": 3
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "image_url": "https://library.example.org/covers/moby-dick.png",
       "image_format": "png",
       "resolution": "750x1150",
-      "upload_date": "2026-02-12"
+      "upload_date": "2026-02-12",
+      "user_id": 2
     },
     {
       "id": 7,
@@ -62,6 +68,7 @@
       "image_format": "jpg",
       "resolution": "700x1050",
       "upload_date": "2026-02-15"
+      "user_id": 5
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "image_url": "https://library.example.org/covers/catcher-in-the-rye.jpg",
       "image_format": "jpg",
       "resolution": "650x1000",
-      "upload_date": "2026-02-16"
+      "upload_date": "2026-02-16",
+      "user_id": 1
     }
   ],
   "users": [
