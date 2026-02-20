@@ -1,154 +1,129 @@
 {
+  "items": [
+    {
+      "id": 1,
+      "book_title": "The Great Gatsby",
+      "isbn": "9780743273565",
+      "image_url": "https://library.example.org/covers/great-gatsby.jpg",
+      "image_format": "jpg",
+      "resolution": "600x900",
+      "upload_date": "2026-02-01"
+    },
+    {
+      "id": 2,
+      "book_title": "1984",
+      "isbn": "9780451524935",
+      "image_url": "https://library.example.org/covers/1984.jpg",
+      "image_format": "jpg",
+      "resolution": "600x900",
+      "upload_date": "2026-02-05"
+    },
+    {
+      "id": 3,
+      "book_title": "To Kill a Mockingbird",
+      "isbn": "9780061120084",
+      "image_url": "https://library.example.org/covers/to-kill-a-mockingbird.png",
+      "image_format": "png",
+      "resolution": "800x1200",
+      "upload_date": "2026-02-10"
+    },
+    {
+      "id": 4,
+      "book_title": "Pride and Prejudice",
+      "isbn": "9780141439518",
+      "image_url": "https://library.example.org/covers/pride-and-prejudice.jpg",
+      "image_format": "jpg",
+      "resolution": "700x1100",
+      "upload_date": "2026-02-11"
+    },
+    {
+      "id": 5,
+      "book_title": "The Hobbit",
+      "isbn": "9780547928227",
+      "image_url": "https://library.example.org/covers/the-hobbit.jpg",
+      "image_format": "jpg",
+      "resolution": "800x1200",
+      "upload_date": "2026-02-12"
+    },
+    {
+      "id": 6,
+      "book_title": "Moby-Dick",
+      "isbn": "9781503280786",
+      "image_url": "https://library.example.org/covers/moby-dick.png",
+      "image_format": "png",
+      "resolution": "750x1150",
+      "upload_date": "2026-02-12"
+    },
+    {
+      "id": 7,
+      "book_title": "Brave New World",
+      "isbn": "9780060850524",
+      "image_url": "https://library.example.org/covers/brave-new-world.jpg",
+      "image_format": "jpg",
+      "resolution": "700x1050",
+      "upload_date": "2026-02-15"
+    },
+    {
+      "id": 8,
+      "book_title": "The Catcher in the Rye",
+      "isbn": "9780316769488",
+      "image_url": "https://library.example.org/covers/catcher-in-the-rye.jpg",
+      "image_format": "jpg",
+      "resolution": "650x1000",
+      "upload_date": "2026-02-16"
+    }
+  ],
+  "users": [
+    {
+      "user_id": 1,
+      "first_name": "Alice",
+      "last_name": "Brown",
+      "role": "Digital Archivist",
+      "email": "alice.brown@library.org",
+      "created_at": "2024-05-10",
+      "item_id": 1
+    },
+    {
+      "user_id": 2,
+      "first_name": "Caleb",
+      "last_name": "Dixon",
+      "role": "Catalog Administrator",
+      "email": "caleb.dixon@library.org",
+      "created_at": "2025-01-18",
+      "item_id": 3
+    },
+    {
+      "user_id": 3,
+      "first_name": "Sofia",
+      "last_name": "Martinez",
+      "role": "Metadata Specialist",
+      "email": "sofia.martinez@library.org",
+      "created_at": "2025-09-03",
+      "item_id": 4
+    },
+    {
+      "user_id": 4,
+      "first_name": "Daniel",
+      "last_name": "Kim",
+      "role": "Image Curator",
+      "email": "daniel.kim@library.org",
+      "created_at": "2026-01-12",
+      "item_id": 5
+    },
+    {
+      "user_id": 5,
+      "first_name": "Liam",
+      "last_name": "Walker",
+      "role": "Digital Collections Assistant",
+      "email": "liam.walker@library.org",
+      "created_at": "2026-02-02",
+      "item_id": 6
+    }
+  ],
   "collection": {
     "name": "Book Cover Repository",
     "description": "This collection stores metadata and file references for book cover images.",
     "version": "1.0",
-    "last_updated": "2026-02-12",
-    "endpoints": {
-      "/items": "List all items",
-      "/users": "List all users",
-      "/items/:id/users": "Nested route: users related to an item (users where item_id = :cover_id)"
-    },
-    "schemas": {
-      "items": {
-        "id": "number",
-        "book_title": "string",
-        "isbn": "string",
-        "image_url": "string",
-        "image_format": "string",
-        "resolution": "string",
-        "upload_date": "date"
-      },
-      "users": {
-        "user_id": "number",
-        "first_name": "string",
-        "last_name": "string",
-        "email": "string",
-        "role": "string",
-        "created_at": "date",
-        "item_id": "number (foreign key to items.id)"
-      }
-    },
-    "items": [
-      {
-        "id": 1,
-        "book_title": "The Great Gatsby",
-        "isbn": "9780743273565",
-        "image_url": "https://library.example.org/covers/great-gatsby.jpg",
-        "image_format": "jpg",
-        "resolution": "600x900",
-        "upload_date": "2026-02-01"
-      },
-      {
-        "id": 2,
-        "book_title": "1984",
-        "isbn": "9780451524935",
-        "image_url": "https://library.example.org/covers/1984.jpg",
-        "image_format": "jpg",
-        "resolution": "600x900",
-        "upload_date": "2026-02-05"
-      },
-      {
-        "id": 3,
-        "book_title": "To Kill a Mockingbird",
-        "isbn": "9780061120084",
-        "image_url": "https://library.example.org/covers/to-kill-a-mockingbird.png",
-        "image_format": "png",
-        "resolution": "800x1200",
-        "upload_date": "2026-02-10"
-      },
-      {
-        "id": 4,
-        "book_title": "Pride and Prejudice",
-        "isbn": "9780141439518",
-        "image_url": "https://library.example.org/covers/pride-and-prejudice.jpg",
-        "image_format": "jpg",
-        "resolution": "700x1100",
-        "upload_date": "2026-02-11"
-      },
-      {
-        "id": 5,
-        "book_title": "The Hobbit",
-        "isbn": "9780547928227",
-        "image_url": "https://library.example.org/covers/the-hobbit.jpg",
-        "image_format": "jpg",
-        "resolution": "800x1200",
-        "upload_date": "2026-02-12"
-      },
-      {
-        "id": 6,
-        "book_title": "Moby-Dick",
-        "isbn": "9781503280786",
-        "image_url": "https://library.example.org/covers/moby-dick.png",
-        "image_format": "png",
-        "resolution": "750x1150",
-        "upload_date": "2026-02-12"
-      },
-      {
-        "id": 7,
-        "book_title": "Brave New World",
-        "isbn": "9780060850524",
-        "image_url": "https://library.example.org/covers/brave-new-world.jpg",
-        "image_format": "jpg",
-        "resolution": "700x1050",
-        "upload_date": "2026-02-15"
-      },
-      {
-        "id": 8,
-        "book_title": "The Catcher in the Rye",
-        "isbn": "9780316769488",
-        "image_url": "https://library.example.org/covers/catcher-in-the-rye.jpg",
-        "image_format": "jpg",
-        "resolution": "650x1000",
-        "upload_date": "2026-02-16"
-      }
-    ],
-    "users": [
-      {
-        "user_id": 1,
-        "first_name": "Alice",
-        "last_name": "Brown",
-        "role": "Digital Archivist",
-        "email": "alice.brown@library.org",
-        "created_at": "2024-05-10",
-        "item_id": 1
-      },
-      {
-        "user_id": 2,
-        "first_name": "Caleb",
-        "last_name": "Dixon",
-        "role": "Catalog Administrator",
-        "email": "caleb.dixon@library.org",
-        "created_at": "2025-01-18",
-        "item_id": 3
-      },
-      {
-        "user_id": 3,
-        "first_name": "Sofia",
-        "last_name": "Martinez",
-        "role": "Metadata Specialist",
-        "email": "sofia.martinez@library.org",
-        "created_at": "2025-09-03",
-        "item_id": 4
-      },
-      {
-        "user_id": 4,
-        "first_name": "Daniel",
-        "last_name": "Kim",
-        "role": "Image Curator",
-        "email": "daniel.kim@library.org",
-        "created_at": "2026-01-12",
-        "item_id": 5
-      },
-      {
-        "user_id": 5,
-        "first_name": "Liam",
-        "last_name": "Walker",
-        "role": "Digital Collections Assistant",
-        "email": "liam.walker@library.org",
-        "created_at": "2026-02-02",
-        "item_id": 6
-      }
-    ]
+    "last_updated": "2026-02-12"
   }
 }
