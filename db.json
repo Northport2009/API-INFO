@@ -18,7 +18,7 @@
       "image_format": "jpg",
       "resolution": "600x900",
       "upload_date": "2026-02-05",
-      "user_id": 3
+      "user_id": 2
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "image_format": "png",
       "resolution": "800x1200",
       "upload_date": "2026-02-10",
-      "user_id": 4
+      "user_id": 3
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "image_format": "jpg",
       "resolution": "700x1100",
       "upload_date": "2026-02-11",
-      "user_id": 2
+      "user_id": 4
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "image_format": "jpg",
       "resolution": "800x1200",
       "upload_date": "2026-02-12",
-      "user_id": 3
+      "user_id": 5
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "image_format": "png",
       "resolution": "750x1150",
       "upload_date": "2026-02-12",
-      "user_id": 2
+      "user_id": 6
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "image_format": "jpg",
       "resolution": "700x1050",
       "upload_date": "2026-02-15",
-      "user_id": 5
+      "user_id": 7
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "image_format": "jpg",
       "resolution": "650x1000",
       "upload_date": "2026-02-16",
-      "user_id": 1
+      "user_id": 8
     }
   ],
   "users": [
@@ -98,7 +98,7 @@
       "role": "Catalog Administrator",
       "email": "caleb.dixon@library.org",
       "created_at": "2025-01-18",
-      "item_id": 3
+      "item_id": 2
     },
     {
       "user_id": 3,
@@ -107,7 +107,7 @@
       "role": "Metadata Specialist",
       "email": "sofia.martinez@library.org",
       "created_at": "2025-09-03",
-      "item_id": 4
+      "item_id": 3
     },
     {
       "user_id": 4,
@@ -116,7 +116,7 @@
       "role": "Image Curator",
       "email": "daniel.kim@library.org",
       "created_at": "2026-01-12",
-      "item_id": 5
+      "item_id": 4
     },
     {
       "user_id": 5,
@@ -125,7 +125,34 @@
       "role": "Digital Collections Assistant",
       "email": "liam.walker@library.org",
       "created_at": "2026-02-02",
+      "item_id": 5
+    },
+    {
+      "user_id": 6,
+      "first_name": "Emma",
+      "last_name": "Johnson",
+      "role": "Image Archivist",
+      "email": "emma.johnson@library.org",
+      "created_at": "2026-02-05",
       "item_id": 6
+    },
+    {
+      "user_id": 7,
+      "first_name": "Noah",
+      "last_name": "Lee",
+      "role": "Digital Curator",
+      "email": "noah.lee@library.org",
+      "created_at": "2026-02-07",
+      "item_id": 7
+    },
+    {
+      "user_id": 8,
+      "first_name": "Olivia",
+      "last_name": "Smith",
+      "role": "Catalog Assistant",
+      "email": "olivia.smith@library.org",
+      "created_at": "2026-02-10",
+      "item_id": 8
     }
   ],
   "collection": {
